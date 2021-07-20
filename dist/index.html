@@ -92,9 +92,46 @@
         <!--Main-->
         <main class="main">
             <div class="container">
+                <!--Stories-->
+                <div class="stories">
+                    <div class="stories_item">
+                        <img class="stories_preview" src="assets/images/stories/stories-1.jpg">
+                        <div class="stories_title">Chill</div>
+                        <time class="stories_date" datetime="2021-06-17 19:21">17.06.2021</time>
+                    </div>
+                    <div class="stories_item">
+                        <img class="stories_preview" src="assets/images/stories/stories-2.jpg">
+                        <div class="stories_title">Chill</div>
+                        <time class="stories_date" datetime="2021-06-17 19:21">17.06.2021</time>
+                    </div>
+                    <div class="stories_item">
+                        <img class="stories_preview" src="assets/images/stories/stories-3.jpg">
+                        <div class="stories_title">Chill</div>
+                        <time class="stories_date" datetime="2021-06-17 19:21">17.06.2021</time>
+                    </div>
+                    <div class="stories_item">
+                        <img class="stories_preview" src="assets/images/stories/stories-4.jpg">
+                        <div class="stories_title">Chill</div>
+                        <time class="stories_date" datetime="2021-06-17 19:21">17.06.2021</time>
+                    </div>
+                </div>
+                <!--END Stories-->
                 
-                Hello!
-                
+                <!--Add post-->
+                    <div class="add_post">
+                        <form class="add_post_form" action="/" methods="POST">
+                            <textarea class="add_post-textarea" name="post-text" placeholder="Write a post"></textarea>
+                            <div class="add_post_form-actions">
+                                <label class="add_post_file" for="add_post-file">
+                                    <input type="file" id="add_post-file">
+                                </label>
+                                <button class="add_post_send" type="submit">
+                                    <img src="assets/images/send.svg" alt="send">
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                <!--END Add post-->
             </div>
         </main>
     </div>
